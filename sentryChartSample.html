@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+
+
+	<style>
+		#body{
+			background-color: grey;
+		}
+		canvas{
+			width:1000px !important;
+			height:540px !important;
+			
+		}
+		#div1{
+			padding-left: 30%;
+		}
+		
+		
+		.dropbtn {
+			background-color: grey;
+			color: white;
+			border: none;
+			cursor: pointer;
+		}
+
+		
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+			font-size: 16px;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			min-width: 100px;
+			overflow:visible;
+			
+		}
+
+
+		
+
+		
+
+
+	</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.bundle.js"></script>
+	<script src="sentryChartSample.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script
+	
+	
+	
+	
+	</head>
+	<body id="body">
+		</br>
+		<div class="container">
+			<canvas id="myChart"></canvas>
+		</div>
+		
+		</br>
+		</br>
+		
+		<div class="container" id="div1">
+			<button id="button1">Plan Success Chart</button>
+			<button id="button2">Script Result success Chart</button>
+			<button id="button3">Iteration Success Chart</button>
+			
+			
+			
+			<div class="dropdown">
+				
+				<div id="myDropdown" class="dropdown-content">
+					<select id="selectId"></select>
+					
+					
+				 </div>
+			</div>
+		
+		</div>
+	</body>
+
+</html>
